@@ -18,8 +18,8 @@ $arr = [
 
 $arr1 = [
     ['firstName' => 'shafrin', 'lastName' => 'Ahamed', 'age' => 27],
-    ['firstName' => 'shafrin', 'lastName' => 'Ahamed', 'age' => 27],
-    ['firstName' => 'shafrin', 'lastName' => 'Ahamed', 'age' => 27],
+    ['firstName' => 'Ahamed', 'lastName' => 'Shafrin', 'age' => 27],
+    ['firstName' => 'Mr.', 'lastName' => 'Shakib', 'age' => 27],
 ];
 
 // echo $arr1[0]['firstName'], $arr1[0]['lastName'];
@@ -31,3 +31,4 @@ foreach($arr1 as $child){
         echo "$key: $value" ."\n";
     }
 }
+
