@@ -28,6 +28,6 @@ $arr1 = [
 
 foreach($arr1 as $child){
     foreach($child as $key=>$value){
-        echo "$value" ."\n";
+        echo "$key: $value" ."\n";
     }
 }
