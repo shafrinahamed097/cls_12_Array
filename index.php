@@ -10,3 +10,4 @@ $array1=["Dhaka", 'Noakhali', 'Khulna'];
 
 $array2=array('Dhaka','Noakhali','khulna');
 
+echo $array2[2];
