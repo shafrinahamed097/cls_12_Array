@@ -1,9 +1,9 @@
-<?php 
+<?php
 
-$cityList=['Dhaka', 'Noakhali', 'Khulna', 'Barishal', 'Rajshahi', 'Chittagong'];
+$cityList = ['Dhaka', 'Noakhali', 'Khulna', 'Rajshahi'];
 
-// How to access values from array loop
+// how to access values from array loop
 
-foreach($cityList as $city){
-echo $city  ."\n";
+foreach ($cityList as $city) {
+    echo $city ."\n";
 }
