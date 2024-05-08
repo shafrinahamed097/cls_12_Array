@@ -4,4 +4,10 @@
 
 $person=["name" =>"Shafrin Ahamed", "age" =>27, "city"=>"Noakhali"];
 
-echo $person['name'];
+
+
+// apply foreach this array
+
+foreach($person as $key => $value){
+    echo $key . " " . $value ."\n";
+}
