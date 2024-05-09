@@ -1,5 +1,5 @@
 <?php
 
 $fruits=['apple', 'banana', 'orange', 'mango', 'pineapple'];
-$lice=array_slice($fruits, 0, 3);
-print_r($lice);
+array_splice($fruits, 1, 2, ['demo', 'demo1']);
+print_r($fruits);
